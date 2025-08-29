@@ -1,73 +1,45 @@
-# Welcome to your Lovable project
+# Voice Curated Archive
 
-## Project info
+The `voice-curated-archive` is a modern, voice-controlled digital museum interface. It is the frontend application for the Digital Cultural Heritage (DCH) monorepo.
 
-**URL**: https://lovable.dev/projects/7f0e7d9c-c01e-4a75-9f45-5735cc19b245
+## Key Technologies
 
-## How can I edit this code?
+-   **Framework:** React
+-   **Language:** TypeScript
+-   **Build Tool:** Vite
+-   **UI Library:** shadcn-ui
+-   **Styling:** Tailwind CSS
+-   **Routing:** React Router DOM
+-   **Data Fetching:** Axios
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7f0e7d9c-c01e-4a75-9f45-5735cc19b245) and start prompting.
+-   [Node.js](https://nodejs.org/)
+-   [npm](https://www.npmjs.com/)
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1.  Navigate to the `voice-curated-archive` directory:
+    ```bash
+    cd voice-curated-archive
+    ```
+2.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+3.  Create a `.env` file in the root of the `voice-curated-archive` directory and add the API base URL.
+    ```
+    VITE_API_BASE_URL=http://localhost:3000
+    ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Running the Development Server
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To start the development server, run the following command:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7f0e7d9c-c01e-4a75-9f45-5735cc19b245) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
