@@ -1,6 +1,6 @@
 # Voice Curated Archive
 
-The `voice-curated-archive` is a modern, voice-controlled digital museum interface. It is the frontend application for the Digital Cultural Heritage (DCH) monorepo.
+The `voice-curated-archive` is a modern, voice-controlled digital museum interface. It is the frontend application for the Digital Cultural Heritage (DCH) repo.
 
 ## Key Technologies
 
